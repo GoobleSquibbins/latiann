@@ -1,6 +1,45 @@
 <template>
-    <div class="ml-[160px]">
-        <h1 class="text-[70px] border-b-2 border-black mb-[10px] font-medium mr-[10px]">{{ creatorId }}</h1>
+    <div class="ml-[160px]" >
+        <div v-if="creatorId == 'SsethTzentach'" class="header flex items-center border-b-2 border-black mb-[10px] mr-[10px]">
+            <div class="datext">
+                <h1 class="text-[70px] font-medium ">{{ creatorId }}</h1> 
+            </div>
+            <div class="dapics ml-auto">
+                <img class="h-[100px] ml-auto border-2 border-white rounded-lg shadow-lg" src="https://scontent.fcgk8-2.fna.fbcdn.net/v/t39.30808-1/297893906_602139911272037_100711993481514336_n.jpg?stp=dst-jpg_p200x200&_nc_cat=107&ccb=1-7&_nc_sid=c6021c&_nc_ohc=jDLXEuh7NPUAX-WWTVy&_nc_ht=scontent.fcgk8-2.fna&oh=00_AfBMud1_eDiHOOlWq2wEADjIiXCz2JS48x8UYqX9cAILWw&oe=6467D3C3" alt="">
+            </div>
+           
+        </div>
+
+        <div v-if="creatorId == 'Albino'" class="header flex items-center border-b-2 border-black mb-[10px] mr-[10px]">
+            <div class="datext">
+                <h1 class="text-[70px] font-medium ">{{ creatorId }}</h1> 
+            </div>
+            <div class="dapics ml-auto">
+                <img class="h-[100px] ml-auto border-2 border-white rounded-lg shadow-lg" src="https://yt3.googleusercontent.com/ytc/AGIKgqMRhc2T1qMdPElVV4VA0R7nZTDaI53-6OA9nDPreg=s176-c-k-c0x00ffffff-no-rj" alt="">
+            </div>
+           
+        </div>
+
+        <div v-if="creatorId == 'Max0r'" class="header flex items-center border-b-2 border-black mb-[10px] mr-[10px]">
+            <div class="datext">
+                <h1 class="text-[70px] font-medium ">{{ creatorId }}</h1> 
+            </div>
+            <div class="dapics ml-auto">
+                <img class="h-[100px] ml-auto border-2 border-white rounded-lg shadow-lg" src="https://yt3.googleusercontent.com/ytc/AGIKgqPi0LioT8O_Xx4xs6dJPhm6CXWYaqBy8JVJvHdbQQ=s176-c-k-c0x00ffffff-no-rj" alt="">
+            </div>
+           
+        </div>
+
+        <div v-if="creatorId == 'Huggbees'" class="header flex items-center border-b-2 border-black mb-[10px] mr-[10px]">
+            <div class="datext">
+                <h1 class="text-[70px] font-medium ">{{ creatorId }}</h1> 
+            </div>
+            <div class="dapics ml-auto">
+                <img class="h-[100px] ml-auto border-2 border-white rounded-lg shadow-lg" src="https://yt3.googleusercontent.com/ytc/AGIKgqMh5Lv0jAxa48F0jcvqw9oAfvj00WywPgGCeWS4eg=s176-c-k-c0x00ffffff-no-rj" alt="">
+            </div>
+           
+        </div>
+        
         <div v-if="creatorId == 'SsethTzentach'" class="">
             <p class="text-[20px] mb-[10px]">SsethTzeentach /sɛθ.ziːn.tæk/ is a YouTuber who has been active since late
                 2007. He makes comedic reviews of video games.
